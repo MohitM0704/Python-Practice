@@ -1,0 +1,6 @@
+first = input("Enter your first name: ")
+last = input("Enter your last name: ")
+year = int(input("Enter your birth year: "))
+college = input("Enter your college name: ")
+print("Your ID is: ", first.upper()+str(year))
+print(f"Welcome {first.title()} {last.title()}\nCollege: {college}\nAge: {2026-year}")
